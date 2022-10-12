@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  background-color: #F1F1F1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Stout Sports Management</h1>
+	
+	<body>
+	
+<img src="img/STOUT LOGO 1.png"width="400" height="400">
+<body style="background-color:white;">
+
+<ul>
+	<div class="topnav">
+<li><a href="Player Branding.asp">Player Branding</a></li>
+</ul>
+
+
+
+	<p> <strong>Stout Sports Management</strong> is a 21st century Zambian sports agency which prides itself in its well organized, very effective and streamlined manner of providing agent services. We create a conducive clime for individual football players to excel and provide vast opportunities for prospective players, while making an impact when it comes to the growth of football in Zambia and across the globe. Stout Sports Management has set up transfer networks which are crucial for the scouting as well as recruitment of players. Our goal is to hugely impact our clientele’s careers and be pioneers of progress and success.</p>
+<hr />
+	<em><b>We offer;</b></em>
+<li> Full Time Player Management</li>
+<li> Contract negotiation and renegotiation</li>
+<li> Career and post career planning</li>
+<li> Brand Building</li>
+
+<!-- More info is needed -->
+
+<p>Visit our Facebook page <a href="https://www.facebook.com/Stout-Sports-Management-106621284595268/" target="_blank">here</a></p>
+<p>Email us at <a href="mailto:stoutsm17@gmail.com">stoutsm17gmail.com</a>
+	</body>
+
+
+</html>
