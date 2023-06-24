@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     height: 130px;
-    width: 100%;
+    width: 100.20%;
     background-color: black;
 }
 .backG{
@@ -44,17 +44,38 @@ body{
 .cont_links{
     height: 40%;
 }
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 45%;
+    background-color: black;
+}
+.navigation a{
+    
+    font-family: Arial;
+    color: ghostwhite;
+    font-size: 17pt;
+    text-decoration: none;
+    
+}
+.navigation a:hover
+{
+    color: grey;
+}
 
-.home_text{
+.home_bg{
     background-image: url("../Images/Big Logo Warm.jpeg");
     background-position: center;
-    background-size: 10%;
+    background-size: 9.8%;
     background-repeat: repeat;
-
-    padding-top: 25px;
+}
+.home_motto{
+    padding-top: 170px;
+    padding-left: 10%;
     color: ghostwhite;
     height: 1000px;
-    font-size: 65px;
+    font-size: 45px;
     text-align: left;
     font-family: Arial;
 }
