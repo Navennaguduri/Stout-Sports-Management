@@ -64,20 +64,19 @@ body{
     color: grey;
 }
 
-.home_bg{
+.player_branding_bg{ /*Background*/
+    display: flex;
     background-image: url("../Images/Big Logo Warm.jpeg");
     background-position: center;
     background-size: 9.8%;
     background-repeat: repeat;
-}
-.home_motto{
-    padding-top: 170px;
-    padding-left: 10%;
-    color: ghostwhite;
     height: 1000px;
-    font-size: 45px;
+}
+.player_branding_text{  /*For the text*/
     text-align: left;
+    padding-top: 170px;
     font-family: Arial;
+    font-size: 20pt;
 }
 
 @media(max-width: 710px) {

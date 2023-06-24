@@ -1,0 +1,110 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.navbar{
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+    width: 100.20%;
+    background-color: black;
+}
+.backG{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    background-image: url('../Images/Curve.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 30%;
+    z-index: 10;
+}
+.logo_image{
+    height: 200%;
+    z-index: 10;
+}
+.contact_links{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+    width: 21%;
+    margin-top: 30px;
+}
+.cont_links{
+    height: 40%;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 45%;
+    background-color: black;
+}
+.navigation a{
+    
+    font-family: Arial;
+    color: ghostwhite;
+    font-size: 17pt;
+    text-decoration: none;
+    
+}
+.navigation a:hover
+{
+    color: grey;
+}
+
+.home_bg{
+    background-image: url("../Images/Big Logo Warm.jpeg");
+    background-position: center;
+    background-size: 9.8%;
+    background-repeat: repeat;
+    height: 1000px;
+}
+.home_motto{
+    padding-top: 170px;
+    padding-left: 10%;
+    color: ghostwhite;
+    
+    font-size: 45px;
+    text-align: left;
+    font-family: Arial;
+}
+
+@media(max-width: 710px) {
+    .contact_links{
+        display: flex;
+        justify-content: space-evenly;
+        height: 50%;
+        width: 21%;
+        margin-top: 40px;
+    }
+    .cont_links{
+        height: 30%;
+    }
+    .logo_image{
+        height: 150%;
+        z-index: 10;
+    }
+    .backG{
+        width: 100%;
+        height: 70%;
+        background-color: black;
+        background-image: url('../Images/Curve.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
