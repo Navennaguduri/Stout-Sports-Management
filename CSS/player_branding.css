@@ -72,6 +72,7 @@ body{
     background-repeat: repeat;
     height: 1000px;
 }
+
 .player_branding_text{  /*For the text*/
     text-align: left;
     color: white; /* Modify the color to white */
