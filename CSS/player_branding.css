@@ -3,6 +3,11 @@ body{
     padding: 0;
     margin: 0;
     background-color: black;
+    border-left: 2px solid black; /* Add left margin line */
+    border-right: 2px solid black; /* Add right margin line */
+    margin-left: 40px; /* Adjust the margin on the left side */
+    margin-right: 40px; /* Adjust the margin on the right side */
+    border-color: black; /* Adjust the color of the margin lines */
 }
 
 .navbar{
