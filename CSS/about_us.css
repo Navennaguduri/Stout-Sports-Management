@@ -1,3 +1,7 @@
+@font-face{
+    font-family: YsabeauSC;
+    src: url(../Fonts/Ysabeau_SC/static/YsabeauSC-Regular.ttf);
+}
 
 body{
     padding: 0;
@@ -65,7 +69,6 @@ body{
 }
 
 .about_us_bg{ /*Background*/
-    display: flex;
     background-image: url("../Images/Big Logo Warm.jpeg");
     background-position: center;
     background-size: 9.8%;
@@ -75,10 +78,8 @@ body{
 
 .about_us_txt{
     padding-top: 170px;
-    font-family: Arial;
-    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
     color: ghostwhite;
-
 }
 
 @media(max-width: 710px) {

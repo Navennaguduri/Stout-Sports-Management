@@ -72,12 +72,11 @@ body{
     height: 1000px;
 }
 .home_motto{
-    padding-top: 170px;
-    padding-left: 10%;
+    padding-top: 270px;
     color: ghostwhite;
     
     font-size: 45px;
-    text-align: left;
+    text-align: center;
     font-family: Arial;
 }
 
