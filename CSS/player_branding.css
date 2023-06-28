@@ -74,9 +74,9 @@ body{
 }
 
 .player_branding_text{  /*For the text*/
-    text-align: left;
+    text-align: center;
     color: white; /* Modify the color to white */
-    padding-top: 170px;
+    padding-top: 200px;
     font-family: Arial;
     font-size: 20pt;
 }
