@@ -160,4 +160,22 @@ body{
         max-width: 400px; /* Set a maximum width for individual boxes */
         margin: 10px; /* Adjust margin for spacing on smaller screens */
     }
+
 }
+.image-container {
+    display: flex;
+    justify-content: space-evenly; /* Adjust as needed, e.g., space-around, space-evenly */
+}
+
+/* Adjust individual image styles if needed */
+.image-container img {
+    max-width: 100%; /* Make sure the images don't exceed the width of their container */
+    height: auto; /* Maintain the aspect ratio of the images */
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column; /* Stack images vertically on smaller screens */
+    }
+}
+
