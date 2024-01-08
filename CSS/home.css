@@ -80,7 +80,7 @@ body{
     font-family: Arial;
 }
 
-@media(max-width: 710px) {
+@media(max-width: 480px) {
     .contact_links{
         display: flex;
         justify-content: space-evenly;
@@ -107,3 +107,13 @@ body{
         justify-content: space-between;
     }
 }
+@media (max-width: 480px) {
+    .navbar {
+        height: 100px; /* Adjust the height for smaller screens */
+    }
+    .contact_links {
+        /* Add specific styles for smaller screens */
+    }
+    /* Add more styles as needed for smaller screens */
+}
+

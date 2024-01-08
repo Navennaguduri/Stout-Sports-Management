@@ -82,7 +82,7 @@ body{
     color: ghostwhite;
 }
 
-@media(max-width: 710px) {
+@media(max-width: 768px) {
     .contact_links{
         display: flex;
         justify-content: space-evenly;
@@ -108,4 +108,14 @@ body{
         display: flex;
         justify-content: space-between;
     }
+     .centered-content {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
 }
+.centered-content {
+            max-width: 1700px; /* Set a maximum width for the content */
+            margin: 0 auto; /* Center-align the content horizontally */
+            text-align: center; /* Center-align the text inside the content */
+            padding: 20px; /* Add some padding for spacing */
+        }
+

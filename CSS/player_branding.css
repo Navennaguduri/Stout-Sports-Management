@@ -121,7 +121,43 @@ body{
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 500px;
+    width: 900px;
     box-sizing: border-box;
     border: 2px solid #333; /* Dark color border */
+}
+
+.centered-content {
+            max-width: 1700px; /* Set a maximum width for the content */
+            margin: 0 auto; /* Center-align the content horizontally */
+            text-align: center; /* Center-align the text inside the content */
+            padding: 20px; /* Add some padding for spacing */
+        }
+
+
+ @media (max-width: 768px) {
+    img {
+      max-width: 50%; /* Adjust the maximum width as needed */
+      height: auto;
+    }
+  }
+
+@media (max-width: 768px) {
+    .player_branding_text {
+        padding-top: 100px; /* Adjust the padding for smaller screens */
+        font-size: 20pt; /* Adjust the font size for smaller screens */
+    }
+    
+    .centered-content {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .box-container {
+        justify-content: center; /* Center-align boxes on smaller screens */
+    }
+
+    .box {
+        width: 100%; /* Make boxes take full width on smaller screens */
+        max-width: 400px; /* Set a maximum width for individual boxes */
+        margin: 10px; /* Adjust margin for spacing on smaller screens */
+    }
 }
