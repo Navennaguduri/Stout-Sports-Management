@@ -36,7 +36,7 @@ body{
 }
 .logo{
     height: 30%;
-    z-index: 10;
+    z-index: 1;
 }
 .logo_image{
     height: 200%;
@@ -54,7 +54,6 @@ body{
 }
 .navigation{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     width: 45%;
     background-color: black;
@@ -63,7 +62,7 @@ body{
     
     font-family: Arial;
     color: ghostwhite;
-    font-size: 11pt;
+    font-size: 17pt;
     text-decoration: none;
     
 }
@@ -171,5 +170,10 @@ p {
     font-size: 15pt;
     padding: 10px; /* Adjust padding for smaller screens */
     text-align: center;
+}
+@media(max-width: 600px) {
+    .navigation a{
+        font-size: 10pt;
+    }
 }
 

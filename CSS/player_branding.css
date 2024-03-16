@@ -3,8 +3,6 @@ body{
     padding: 0;
     margin: 0;
     background-color: black;
-    width: 100%;
-    height: 100%;
 }
 
 .navbar{
@@ -16,8 +14,6 @@ body{
     height: 130px;
     width: 100.20%;
     background-color: black;
-     padding: 0 20px;
-    z-index: 1000;
 }
 .backG{
     width: 100%;
@@ -32,11 +28,11 @@ body{
 }
 .logo{
     height: 30%;
-    z-index: 1;
+    z-index: 10;
 }
 .logo_image{
     height: 200%;
-    z-index: 1;
+    z-index: 10;
 }
 .contact_links{
     display: flex;
@@ -46,7 +42,7 @@ body{
     margin-top: 30px;
 }
 .cont_links{
-    height: 50%;
+    height: 40%;
 }
 .navigation{
     display: flex;
@@ -164,7 +160,6 @@ body{
         max-width: 400px; /* Set a maximum width for individual boxes */
         margin: 10px; /* Adjust margin for spacing on smaller screens */
     }
-
 }
 .image-container {
     display: flex;
@@ -176,10 +171,8 @@ body{
     max-width: 100%; /* Make sure the images don't exceed the width of their container */
     height: auto; /* Maintain the aspect ratio of the images */
 }
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-    .image-container {
-        flex-direction: column; /* Stack images vertically on smaller screens */
+@media(max-width: 600px) {
+    .navigation a{
+        font-size: 10pt;
     }
 }
-
