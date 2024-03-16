@@ -3,6 +3,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: black;
+    font-family: Arial;
 }
 
 .navbar{
@@ -49,6 +50,7 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     width: 45%;
+    border-radius:0 0 15px 0;
     background-color: black;
 }
 .navigation a{
@@ -66,6 +68,7 @@ body{
 
 .player_branding_bg{ /*Background*/
     display: flex;
+    flex-direction: column;
     background-image: url("../Images/Big Logo Warm.jpeg");
     background-position: center;
     background-size: 9.8%;
@@ -74,12 +77,15 @@ body{
 }
 
 .player_branding_text{  /*For the text*/
+    width: 80%;
     text-align: center;
     color: white; /* Modify the color to white */
-    padding-top: 200px;
-    font-family: Arial;
+    margin: 16% auto 0 auto;
     font-size: 20pt;
 }
+
+
+/*
 
 @media(max-width: 710px) {
     .contact_links{
@@ -108,71 +114,161 @@ body{
         justify-content: space-between;
     }
 }
+
+*/
+
+.services{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.services_title{
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0 0 1% 0;
+}
+
 .box-container {
     display: flex;
     flex-wrap: wrap; /* Allow boxes to wrap to the next row on smaller screens */
     justify-content: space-around; /* Distribute space evenly between boxes */
+    margin: 0 0 5% 0;
 }
 
 /* Style the boxes */
 .box {
     background-color: black;
-    margin: 20px;
+    margin: 0 auto 0 auto;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 900px;
+    width: 50%;
     box-sizing: border-box;
     border: 2px solid #333; /* Dark color border */
+    text-align: center;
 }
 
+/*
 .centered-content {
-            max-width: 1700px; /* Set a maximum width for the content */
-            margin: 0 auto; /* Center-align the content horizontally */
-            text-align: center; /* Center-align the text inside the content */
-            padding: 20px; /* Add some padding for spacing */
+            width: 100%; /* Set a maximum width for the content 
+            margin: 0 auto; /* Center-align the content horizontally 
+            text-align: center; /* Center-align the text inside the content 
+             /* Add some padding for spacing 
         }
+*/
 
-
+/*
  @media (max-width: 768px) {
     img {
-      max-width: 50%; /* Adjust the maximum width as needed */
+      max-width: 50%; // Adjust the maximum width as needed
       height: auto;
     }
   }
 
 @media (max-width: 768px) {
     .player_branding_text {
-        padding-top: 100px; /* Adjust the padding for smaller screens */
-        font-size: 20pt; /* Adjust the font size for smaller screens */
+        padding-top: 100px; // Adjust the padding for smaller screens 
+        font-size: 20pt; // Adjust the font size for smaller screens 
     }
     
     .centered-content {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px; // Adjust padding for smaller screens 
     }
 
     .box-container {
-        justify-content: center; /* Center-align boxes on smaller screens */
+        justify-content: center; // Center-align boxes on smaller screens 
     }
 
     .box {
-        width: 100%; /* Make boxes take full width on smaller screens */
-        max-width: 400px; /* Set a maximum width for individual boxes */
-        margin: 10px; /* Adjust margin for spacing on smaller screens */
+        width: 100%; // Make boxes take full width on smaller screens 
+        max-width: 400px; /* Set a maximum width for individual boxes 
+        margin: 10px; /* Adjust margin for spacing on smaller screens 
     }
 }
+*/
+
 .image-container {
-    display: flex;
-    justify-content: space-evenly; /* Adjust as needed, e.g., space-around, space-evenly */
+    width: 60%;
+    margin: 0 auto 5% auto;
+    /*justify-content: space-evenly; /* Adjust as needed, e.g., space-around, space-evenly */
 }
 
 /* Adjust individual image styles if needed */
 .image-container img {
-    max-width: 100%; /* Make sure the images don't exceed the width of their container */
+    width: 100%; /* Make sure the images don't exceed the width of their container */
     height: auto; /* Maintain the aspect ratio of the images */
 }
+
+/*
 @media(max-width: 600px) {
     .navigation a{
         font-size: 10pt;
     }
 }
+*/
+
+@media(max-width: 600px) {
+    .player_branding_text{
+        margin: 60% auto 0 auto;
+    }
+
+    .player_branding_text p{
+        font-size: 15pt;
+    }
+    .player_branding_text h1{
+        margin: 20% 0 0 0;
+        font-size: 1.5em;
+    }
+
+    .image-container{
+        flex-direction: column;
+    }
+
+    .navigation a{
+        font-size: 10pt;
+    }
+}
+
+@media(max-width: 900px) {
+
+    .navigation a{
+        font-size: 12pt;
+    }
+
+    .contact_links{
+        display: flex;
+        justify-content: space-evenly;
+        height: 50%;
+        width: 21%;
+        margin-top: 40px;
+    }
+    .cont_links{
+        height: 30%;
+    }
+    .logo_image{
+        height: 150%;
+        z-index: 10;
+    }
+    .backG{
+        width: 100%;
+        height: 70%;
+        background-color: black;
+        background-image: url('../Images/Curve.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .services_title{
+        font-size: 2em;
+    }
+    .player_branding_text{
+        width: 80%;
+        margin: 25% auto 0 auto;
+    }
+}
+

@@ -50,6 +50,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     width: 45%;
+    border-radius:0 0 15px 0;
     background-color: black;
 }
 .navigation a{
@@ -94,6 +95,10 @@ body{
 }
 
 @media(max-width: 900px) {
+
+    .navigation a{
+        font-size: 12pt;
+    }
 
     .contact_links{
         display: flex;
