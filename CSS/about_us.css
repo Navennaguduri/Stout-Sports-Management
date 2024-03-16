@@ -7,6 +7,8 @@ body{
     padding: 0;
     margin: 0;
     background-color: black;
+    width: 100%;
+    height: 100%;
 }
 
 .navbar{
@@ -18,6 +20,8 @@ body{
     height: 130px;
     width: 100.20%;
     background-color: black;
+    padding: 0 20px;
+    z-index: 1000;
 }
 .backG{
     width: 100%;
@@ -36,7 +40,7 @@ body{
 }
 .logo_image{
     height: 200%;
-    z-index: 10;
+    z-index: 1;
 }
 .contact_links{
     display: flex;
@@ -46,7 +50,7 @@ body{
     margin-top: 30px;
 }
 .cont_links{
-    height: 40%;
+    height: 50%;
 }
 .navigation{
     display: flex;
@@ -59,7 +63,7 @@ body{
     
     font-family: Arial;
     color: ghostwhite;
-    font-size: 17pt;
+    font-size: 11pt;
     text-decoration: none;
     
 }
@@ -82,7 +86,7 @@ body{
     color: ghostwhite;
 }
 
-@media(max-width: 710px) {
+@media(max-width: 900px) {
     .contact_links{
         display: flex;
         justify-content: space-evenly;
@@ -118,4 +122,54 @@ body{
             text-align: center; /* Center-align the text inside the content */
             padding: 20px; /* Add some padding for spacing */
         }
+
+ @media (max-width: 768px) {
+    img {
+      max-width: 50%; /* Adjust the maximum width as needed */
+      height: auto;
+    }
+  }
+
+@media (max-width: 768px) {
+    .player_branding_text {
+        padding-top: 100px; /* Adjust the padding for smaller screens */
+        font-size: 20pt; /* Adjust the font size for smaller screens */
+    }
+    
+    .centered-content {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .box-container {
+        justify-content: center; /* Center-align boxes on smaller screens */
+    }
+
+    .box {
+        width: 100%; /* Make boxes take full width on smaller screens */
+        max-width: 400px; /* Set a maximum width for individual boxes */
+        margin: 10px; /* Adjust margin for spacing on smaller screens */
+    }
+
+}
+.image-container {
+    display: flex;
+    justify-content: space-evenly; /* Adjust as needed, e.g., space-around, space-evenly */
+}
+
+/* Adjust individual image styles if needed */
+.image-container img {
+    max-width: 100%; /* Make sure the images don't exceed the width of their container */
+    height: auto; /* Maintain the aspect ratio of the images */
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column; /* Stack images vertically on smaller screens */
+    }
+}
+p {
+    font-size: 15pt;
+    padding: 10px; /* Adjust padding for smaller screens */
+    text-align: center;
+}
 
