@@ -9,6 +9,7 @@ body{
     background-color: black;
     width: 100%;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar{
@@ -20,7 +21,6 @@ body{
     height: 130px;
     width: 100.20%;
     background-color: black;
-    padding: 0 20px;
     z-index: 1000;
 }
 .backG{
@@ -77,7 +77,7 @@ body{
     background-position: center;
     background-size: 9.8%;
     background-repeat: repeat;
-    height: 1000px;
+    height: 100%;
 }
 
 .about_us_txt{
@@ -86,6 +86,7 @@ body{
     color: ghostwhite;
 }
 
+/*
 @media(max-width: 900px) {
     .contact_links{
         display: flex;
@@ -113,44 +114,47 @@ body{
         justify-content: space-between;
     }
      .centered-content {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens *
     }
 }
+
+*/
 .centered-content {
             max-width: 1700px; /* Set a maximum width for the content */
             margin: 0 auto; /* Center-align the content horizontally */
             text-align: center; /* Center-align the text inside the content */
             padding: 20px; /* Add some padding for spacing */
         }
-
+/*
  @media (max-width: 768px) {
     img {
-      max-width: 50%; /* Adjust the maximum width as needed */
+      max-width: 50%; /* Adjust the maximum width as needed *
       height: auto;
     }
   }
 
 @media (max-width: 768px) {
     .player_branding_text {
-        padding-top: 100px; /* Adjust the padding for smaller screens */
-        font-size: 20pt; /* Adjust the font size for smaller screens */
+        padding-top: 100px; /* Adjust the padding for smaller screens *
+        font-size: 20pt; /* Adjust the font size for smaller screens *
     }
     
     .centered-content {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens *
     }
 
     .box-container {
-        justify-content: center; /* Center-align boxes on smaller screens */
+        justify-content: center; /* Center-align boxes on smaller screens *
     }
 
     .box {
-        width: 100%; /* Make boxes take full width on smaller screens */
-        max-width: 400px; /* Set a maximum width for individual boxes */
-        margin: 10px; /* Adjust margin for spacing on smaller screens */
+        width: 100%; /* Make boxes take full width on smaller screens *
+        max-width: 400px; /* Set a maximum width for individual boxes *
+        margin: 10px; /* Adjust margin for spacing on smaller screens *
     }
 
 }
+*/
 .image-container {
     display: flex;
     justify-content: space-evenly; /* Adjust as needed, e.g., space-around, space-evenly */
@@ -162,19 +166,66 @@ body{
     height: auto; /* Maintain the aspect ratio of the images */
 }
 /* Media query for smaller screens */
+/*
 @media (max-width: 768px) {
     .image-container {
-        flex-direction: column; /* Stack images vertically on smaller screens */
+        flex-direction: column; /* Stack images vertically on smaller screens *
     }
 }
+
+*/
+
 p {
     font-size: 15pt;
     padding: 10px; /* Adjust padding for smaller screens */
     text-align: center;
 }
+
+/*
 @media(max-width: 600px) {
     .navigation a{
         font-size: 10pt;
+    }
+}
+*/
+
+@media(max-width: 600px) {
+
+    .navigation a{
+        font-size: 10pt;
+    }
+}
+
+@media(max-width: 900px) {
+
+    .navigation a{
+        font-size: 12pt;
+    }
+
+    .contact_links{
+        display: flex;
+        justify-content: space-evenly;
+        height: 50%;
+        width: 21%;
+        margin-top: 40px;
+    }
+    .cont_links{
+        height: 30%;
+    }
+    .logo_image{
+        height: 150%;
+        z-index: 10;
+    }
+    .backG{
+        width: 100%;
+        height: 70%;
+        background-color: black;
+        background-image: url('../Images/Curve.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
